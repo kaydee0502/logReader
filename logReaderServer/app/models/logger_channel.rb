@@ -1,0 +1,2 @@
+class LoggerChannel < ApplicationRecord
+end

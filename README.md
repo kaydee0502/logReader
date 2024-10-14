@@ -1,5 +1,5 @@
 # logReader
-<img width="502" alt="image" src="https://github.com/user-attachments/assets/e031e604-37df-4db8-a217-360ca27f61a8">
+Microservice `-write->` log `-read->` Server `->` [Client1, Client2, Client3] 
 
 We can store logs in chunks by using inbuilt `fileHandler = RotatingFileHandler(logFile, maxBytes=5 * 1024 * 1024)`
 
